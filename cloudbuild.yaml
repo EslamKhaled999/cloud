@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'us-east4-docker.pkg.dev/qwiklabs-gcp-01-2074409ec839/bert-sentiment-classifier/bert-sentiment-classifier:latest', '.' ]
+images: 
+- 'us-east4-docker.pkg.dev/qwiklabs-gcp-01-2074409ec839/bert-sentiment-classifier/bert-sentiment-classifier:latest'
